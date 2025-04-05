@@ -17,6 +17,7 @@ console.log(aldeanos);
 aldeanos.reverse();
 console.log(aldeanos);
 
+
 //4.5 - Cambia a "Narciso" por "Canela" haciendo uso de un método de array.
 aldeanos.splice(4, 1, "Canela");
 console.log(aldeanos);
