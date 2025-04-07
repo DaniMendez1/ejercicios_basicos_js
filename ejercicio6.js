@@ -18,7 +18,7 @@ let texto;
 
 while(i <= 9){
     i++;
-    //Para el plural cuando cuentes mas de una Oveja se cambie a Ovejas
+//Para el plural cuando cuentes mas de una Oveja se cambie a Ovejas
     if ( i === 1){
         texto = "Oveja";
     }else{
@@ -29,6 +29,6 @@ while(i <= 9){
     if(i >= 10){
         console.log("Dormido!!");
     }
-    //console.log(i + " Dormido!!"); -> Seria mejor esta opcion? Poner el console.log fuera del bucle y ahorrarse hacer el if.
+    //console.log(i + " Dormido!!"); -> Seria mejor esta opcion? Poner el console.log fuera del bucle y ahorrarse hacer el ultimo if.
 };
 
